@@ -1,0 +1,20 @@
+{
+  "name": "test-transitive-dependency",
+  "version": "1.0.0",
+  "description": "echo helloworld to temp",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "echo hello world > /tmp/hello.txt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlantm/test-transitive-dependency.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlantm/test-transitive-dependency/issues"
+  },
+  "homepage": "https://github.com/jlantm/test-transitive-dependency#readme"
+}
